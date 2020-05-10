@@ -31,7 +31,6 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold))),
       home: TabsScreen(),
       routes: {
-        '/': (ctx) => TabsScreen(),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
         MealDetailScreen.routename: (ctx) => MealDetailScreen(),
       },
